@@ -1,0 +1,78 @@
+body{
+
+    background-image: url("img/playa.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ .top1, .top2{
+     text-align:center /* centro los tops 1 y 2*/
+ 
+ }
+ 
+ h1{
+     font-size:xx-large;
+     font-family: 'Montserrat', sans-serif;
+     text-decoration-style:wavy;
+     color:rgb(252, 84, 18);
+ }
+ 
+ h5{
+     color:rgb(252, 84, 18); 
+     text-align: center; 
+     margin-top:1px;    
+ }
+ #circuito{
+     background: #525050; 
+ }
+ 
+ #circuito div img{    
+     position:relative;  /* le doy a las imágenes de los coches una posición relativa */  
+     height: 50px;    /* height para que quepa en pantalla*/
+     margin-left: 0px;  
+ } 
+ 
+ hr{ 
+     margin: 10px;     
+     border-top: 3px dashed white;  /* le doy al hr un estilo discontínuo para que haga el efecto de línea discontínua de carretera*/
+ }
+ 
+ table{
+     display: none;
+ }
+  
+ div p{
+     margin: 0 20px 0 0;
+     display: inline-block;
+     font-weight: bold;
+     font-size: 1.3em;
+ }
+  
+ #contenedor_resultados{
+     text-align: center;
+ }
+ 
+ #tabla_resultados {
+     text-align: center;
+     border-collapse: collapse;
+ }
+ 
+ #tabla_resultados td, #tabla_resultados th{
+     border: 2px solid black;
+ }
+ 
+ #tabla_resultados img{
+     height: 70px;
+ }
+
+
+
+
+
+
+
+
