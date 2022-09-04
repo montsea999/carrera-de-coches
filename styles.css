@@ -8,11 +8,6 @@ body{
     position: relative;
     font-family: 'Montserrat', sans-serif;
  }
-
- .top1, .top2{
-     text-align:center /* centro los tops 1 y 2*/
- 
- }
  
  h1{
      font-size:xx-large;
@@ -41,23 +36,17 @@ body{
      border-top: 3px dashed white;  /* le doy al hr un estilo discontínuo para que haga el efecto de línea discontínua de carretera*/
  }
  
- table{
-     display: none;
- }
+
   
  div p{
      margin: 0 20px 0 0;
      display: inline-block;
      font-weight: bold;
      font-size: 1.3em;
- }
-  
- #contenedor_resultados{
-     text-align: center;
- }
-  
+ }  
+
  #tabla_resultados img{
-     height: 70px;
+     height: 35px;
  }
 
 
