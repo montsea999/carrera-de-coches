@@ -1,6 +1,6 @@
 body{
 
-    background-image: url("img/playa.png");
+    background-image: url("img/playa.jpg");
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,16 +55,7 @@ body{
  #contenedor_resultados{
      text-align: center;
  }
- 
- #tabla_resultados {
-     text-align: center;
-     border-collapse: collapse;
- }
- 
- #tabla_resultados td, #tabla_resultados th{
-     border: 2px solid black;
- }
- 
+  
  #tabla_resultados img{
      height: 70px;
  }
