@@ -115,7 +115,7 @@
 		<label for="participantes">
 			<h5>Participantes:</h5>
 		</label>
-		<select id="participantes">
+		<select class="custom-select" id="participantes">
 			<option disabled selected value="">¿cuántos?</option>
 			<option value="1">1</option>
 			<option value="2">2</option>
@@ -132,8 +132,8 @@
 
 	<div class="text-center">
 		<div class="botonera">
-			<button type="button" class="btn btn-success btn-lg" id="Iniciar">Iniciar</button>
-			<button type="button" class="btn btn-danger btn-lg" id="Reiniciar">Reiniciar</button>
+			<button type="button" class="btn btn-success btn-lg rounded-pill" id="Iniciar">Iniciar</button>
+			<button type="button" class="btn btn-danger btn-lg rounded-pill" id="Reiniciar">Reiniciar</button>
 		</div>
 	</div><br>
 
@@ -141,11 +141,12 @@
 		<!--tabla para mostrar las posiciones finales -->
 
 		<div class="container">
-			<table class="table" id="tabla_resultados" style="background:peru;">
+			
+			<table class="table rounded-3" id="tabla_resultados" style="background:peru;">
 				<thead>
 					<tr>
-						<th scope="col">Posición &nbsp&nbsp</th>
-						<th scope="col">coche</th>
+						<th scope="col" class="text-danger">Posición &nbsp&nbsp</th>
+						<th scope="col" class="text-danger">coche</th>
 					</tr>
 				</thead>
 				<tbody id="resultados">
